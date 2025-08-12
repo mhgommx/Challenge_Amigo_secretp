@@ -4,7 +4,7 @@ Aplicación web simple para gestionar una lista de amigos y **sortear** un nombr
 Hecha con **HTML + CSS + JavaScript (vanilla)**.
 
 ## 🎯 Demo
-- GitHub Pages: <https://tu-usuario.github.io/<nombre-del-repo>/>
+- GitHub Pages: <https://mhgommx.github.io/Challenge_Amigo_secretp/>
 - Captura:
   ![Pantalla principal](assets/amigo-secreto.png)
 
