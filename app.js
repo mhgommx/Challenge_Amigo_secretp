@@ -56,6 +56,7 @@ function renderLista(){
         li.textContent = n;
         ul.appendChild(li);
     });
+    actualizarBotonSortear();
 }
 
 //DOM directo
@@ -80,7 +81,6 @@ function sortearAmigo(){
         const li = document.createElement(`li`);
         li.textContent = seleccionado;
         ulResultado.appendChild(li);
-        actualizarBotonSortear();
 }
 
 //Habilita y deshabilita el boton de sortear
