@@ -38,8 +38,10 @@ Editar
 ## 🚀 Cómo ejecutar
 
 ### Como usuario (en línea)
-No necesitas instalar nada. Abre la demo:
-- GitHub Pages: <https://TU_USUARIO.github.io/NOMBRE_DEL_REPO/>
+## 🎯 Demo
+- GitHub Pages: <https://mhgommx.github.io/Challenge_Amigo_secretp/>
+- Captura:
+  ![Pantalla principal](assets/amigo-secreto.png)
 
 ### Como desarrollador (en tu computadora)
 1) Clona el repositorio:
