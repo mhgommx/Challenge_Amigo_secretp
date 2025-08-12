@@ -5,7 +5,7 @@ Hecha con **HTML + CSS + JavaScript (vanilla)**.
 
 ## 🎯 Demo
 - GitHub Pages: <https://mhgommx.github.io/Challenge_Amigo_secretp/>
-- Captura:
+- Captura:  
   ![Pantalla principal](assets/amigo-secreto.png)
 
 ## ✨ Características
@@ -38,64 +38,51 @@ Editar
 ## 🚀 Cómo ejecutar
 
 ### Como usuario (en línea)
-## 🎯 Demo
+No necesitas instalar nada. Abre la demo:
 - GitHub Pages: <https://mhgommx.github.io/Challenge_Amigo_secretp/>
-- Captura:
-  ![Pantalla principal](assets/amigo-secreto.png)
 
 ### Como desarrollador (en tu computadora)
 1) Clona el repositorio:
 ```bash
-/*
-git clone https://github.com/TU_USUARIO/NOMBRE_DEL_REPO.git
-cd NOMBRE_DEL_REPO
+git clone https://github.com/mhgommx/Challenge_Amigo_secretp.git
+cd Challenge_Amigo_secretp
 Abre index.html en tu navegador
 (tip: con la extensión Live Server en VS Code es más cómodo).
-
-markdown
-Copiar
-Editar
-
-- **“Como usuario (en línea)”** → para ver la app ya publicada (cuando actives GitHub Pages).
-- **“Como desarrollador”** → para quien quiera **clonar** y correrlo localmente con `git clone`.
-*/
-
 
 🧠 Lógica principal (resumen)
 amigos: array en memoria con los nombres.
 
-agregarAmigo():
+agregarAmigo(): valida, evita duplicados y pinta la lista con renderLista().
 
-Lee #amigo, valida, evita duplicados y pinta la lista con renderLista().
+renderLista(): limpia y recrea los <li> de #listaAmigos y actualiza el estado del botón de sorteo.
 
-renderLista():
-
-Limpia y vuelve a crear los <li> de #listaAmigos.
-
-Actualiza el estado del botón de sorteo.
-
-sortearAmigo():
-
-Valida que haya elementos, toma índice aleatorio y pinta el resultado en #resultado.
+sortearAmigo(): valida, obtiene índice aleatorio y muestra el resultado en #resultado.
 
 🔧 Decisiones de implementación
-Preferencia por createElement + textContent al pintar la lista (más seguro que innerHTML).
+createElement + textContent para pintar listas (seguro y claro).
 
 Prevención de duplicados case-insensitive.
 
-Gestión de estados de UI (botón de sorteo) centralizada.
+Gestión del estado del botón de sorteo.
 
-📌 Próximos pasos (roadmap)
+📌 Próximos pasos
 Persistir la lista en localStorage.
 
-Botón para eliminar nombres individuales.
+Eliminar nombres individuales.
 
-Animación/estilos del resultado del sorteo.
+Animación del resultado.
 
-Normalización de acentos para duplicados (José == jose).
-
-📝 Requisitos / versión
-Navegador moderno (ES6+).
+Normalizar acentos (José == jose).
 
 👤 Autor
-<Misael HGMZ> — <mhgommx>
+Misael HGMZ — @mhgommx
+
+sql
+Copiar
+Editar
+
+Luego:
+```bash
+git add README.md
+git commit -m "docs: README limpio con demo y uso"
+git push
